@@ -19,7 +19,7 @@ test("Practice Test 5", async ({ page }) => {
 
   console.log(await page.title());
 
-  await expect(page).toHaveTitle("GoogleWrong");
+  await expect(page).toHaveTitle("Google");
 
   console.log("Ending Practice Test 5");
 });
